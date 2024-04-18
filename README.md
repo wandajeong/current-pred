@@ -14,6 +14,8 @@
 ![](https://velog.velcdn.com/images/hajeongjj/post/a9ba2057-38b1-48af-ac21-714d5790ca87/image.png)
 
 시계열 예측을 위해 위 두 모델을 대상으로 데이터셋에 적합해본 결과, 
+
+
 전반적으로 Prophet이 ETS보다 더 예측 성능이 우수한 것으로 보인다. 
 
 실제 예측 결과를 시각화해보았다.  
@@ -21,5 +23,9 @@
 ![](https://velog.velcdn.com/images/hajeongjj/post/925a5b3d-5900-4f16-a1af-3e321678a8b2/image.png)
 
 안정적인 시계열 데이터에서는 두 모델의 예측이 큰 차이가 없지만, 
+
+
 특정 변화에 대한 트렌드를 ETS가 더 민감하게 받아들이고 있는 것으로 보인다. 
+
+
 파라미터 튜닝을 적용하면 결과가 조금 달라지겠지만, 현재 데이터에서는 전반적으로 Prophet이 적합해 보인다. 
