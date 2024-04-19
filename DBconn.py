@@ -56,6 +56,7 @@ class FetchDB:
           query = f"""INSERT INTO {table} ({col_str}) 
               VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s,CURRENT_TIMESTAMP)"""
           cursor.execute(query, record)
+          conn.commit()
 
       output_param = 2
     except Exception as e:
