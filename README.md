@@ -1,6 +1,7 @@
-# 공정 데이터 가공 및 누적전류 예측 API 
+# 누적전류 예측 및 Work order API 
 
-실시간 공정 데이터를 가공하여 Hourly Summury 하고, 이를 기반으로 미래 30일의 누적전류 profile을 예측하여 결과를 database에 insert 하는 API 
+실시간 공정 데이터를 가공하여 Hourly Summury 하고, 이를 기반으로 미래 30일의 누적전류 profile을 예측하여 결과를 database에 적재. 
+이를 바탕으로 점검 예상일을 예측하여 database에 적재하는 API 
 
 ### 누적전류 예측 모델 비교 
 - Prophet
